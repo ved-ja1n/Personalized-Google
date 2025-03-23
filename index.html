@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="new-tab-logo.png" type="image/icon type">
+  <meta charset="UTF-8">
+  <title>New Tab</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+  <div class="wholeProgram">
+    <div class="background"></div>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <div class="search-bar">
+      <form class="search" onsubmit=event.preventDefault(); redirect();>
+        <input type="text" id="input" name="input" placeholder="Type here..." aria-label="search" autofocus>
+        <button class="setButton" type="submit"><i class="fas fa-search"></i></button>
+        <button class="clearButton" type="button" style="display: none;"><i class="fas fa-times"></i></button>
+      </form>
+    </div>
+
+    <img src="google-logo.png" class="google-image">
+
+    
+    
+
+    <div id="header-container">
+      <div class='parent'>
+        <div class='child'>
+          <main>
+            <div class="atom">
+              <div class="electron"></div>
+              <div class="electron-alpha"></div>
+              <div class="electron-omega"></div>
+            </div>
+          </main>
+        </div>
+      </div>
+
+      <div class="links">
+      <div id="apps-container">
+        <a href="https://chat.openai.com/">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/1024px-ChatGPT_logo.svg.png" style="height: 50px; width: 50px;">
+          <div class="label">
+            <span class="name" style="color: #76eccf; font-size: 20px; display: flex; text-decoration: none;">ChatGPT</span>
+            <span class="url" style="color: #A2A2A7; font-size: 20px; display: flex; text-decoration: none;">chat.openai.com</span>
+          </div>
+        </a>
+
+        <a href="https://youtube.com/" style=" position: relative; left: -50px;">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" style="height: 35px; width: 50px;">
+          <div class="label">
+            <span class="name" style="color: #fa332c; font-size: 20px; display: flex; text-decoration: none;">YouTube</span>
+            <span class="url" style="color: #A2A2A7; font-size: 20px; display: flex; text-decoration: none;">youtube.com</span>
+          </div>
+        </a>
+
+        <a href="https://canva.com/">
+          <img src="https://freelogopng.com/images/all_img/1656733807canva-icon-png.png" style="height: 50px; width: 55px;">
+          <div class="label">
+            <span class="name" style="color: #2B88DB; font-size: 20px; display: flex; text-decoration: none;">Canva</span>
+            <span class="url" style="color: #A2A2A7; font-size: 20px; display: flex; text-decoration: none;">canva.com</span>
+          </div>
+        </a>
+
+        <a href="https://gmail.com/" style=" position: relative; left: -50px;">
+          <img src="https://freelogopng.com/images/all_img/1657906383gmail-icon-png.png" style="height: 50px; width: 50px;">
+          <div class="label">
+            <span class="name" style="color: #e2b11e; font-size: 20px; display: flex; text-decoration: none;">Gmail</span>
+            <span class="url" style="color: #A2A2A7; font-size: 20px; display: flex; text-decoration: none;">gmail.com</span>
+          </div>
+        </a>
+
+        <a href="https://pixlr.com/e/">
+          <img src="https://pixlr.com/img/misc/e-icon.svg" style="height: 50px; width: 55px; border-radius: 10px;">
+          <div class="label">
+            <span class="name" style="color: #3FC2C3; font-size: 20px; display: flex; text-decoration: none;">Pixlr</span>
+            <span class="url" style="color: #A2A2A7; font-size: 20px; display: flex; text-decoration: none;">pixlr.com/e/</span>
+          </div>
+        </a>
+
+        <a href="https://web.whatsapp.com/" style=" position: relative; left: -50px;">
+          <img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2044px-WhatsApp.svg.png" style="height: 50px; width: 50px;">
+
+          <div class="label">
+            <span class="name" style="color: #7bce9a; font-size: 20px; display: flex; text-decoration: none;">WhatsApp</span>
+            <span class="url" style="color: #A2A2A7; font-size: 20px; display: flex; text-decoration: none;">web.whatsapp.com</span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+
+    <p id="time" class="time"></p>   
+
+  </div>
+  <script src="script.js"></script>
+
+</body>
+</html>
